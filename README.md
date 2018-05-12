@@ -54,7 +54,7 @@ Open your command-line tool in your documentation directory. Run `run.cmd`.
 
 If the a image has changed, this may take a couple minutes to update while the latest version is downloaded.
 
-To re-build the site/PDF(s) after you make changes, press `Ctrl` + `C`. Reply `y` to `Terminate batch job (Y/N)?` and press `Enter`. Run `rebuild.cmd`. (You can run `run.cmd` every time, but `rebuild.cmd` is more lightweight and faster.)
+To re-build the site/PDF(s) after you make changes, press `Ctrl` + `C`. Reply `y` to `Terminate batch job (Y/N)?` and press `Enter`. **Run `rebuild.cmd`.**
 
 # Troubleshooting
 ## HNS failed with error
