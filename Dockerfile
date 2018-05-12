@@ -1,6 +1,4 @@
-# Copyright (C) Microsoft Corporation. All rights reserved.
-# Licensed under the MIT license. See LICENSE.txt in the project root for license information.
-FROM microsoft/nanoserver:10.0.14393.447
+FROM microsoft/nanoserver
 ENV chocolateyUseWindowsCompression=false
 
 FROM stefanscherer/chocolatey
@@ -11,6 +9,9 @@ RUN choco install \
     git  \
     docker \
     docfx \
+    wkhtmltopdf \
     --confirm \
     --limit-output \
     --timeout 216000
+
+CMD ["Start.cmd"]
