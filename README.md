@@ -52,7 +52,9 @@ rmdir /s /q update```
 ## Build a directory of Markdown files and images into a site and PDFs
 Open your command-line tool in your documentation directory. Run `run.cmd`.
 
-If the a image has changed, this may take a couple minutes to execute while the latest version is downloaded.
+If the a image has changed, this may take a couple minutes to update while the latest version is downloaded.
+
+To re-build the site/PDF(s) after you make changes, press `Ctrl` + `C`. Reply `y` to `Terminate batch job (Y/N)?` and press `Enter`. Run `rebuild.cmd`. (You can run `run.cmd` every time, but `rebuild.cmd` is more lightweight and faster.)
 
 # Troubleshooting
 ## HNS failed with error
