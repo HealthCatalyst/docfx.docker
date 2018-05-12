@@ -9,7 +9,7 @@ For a Linux image, search https://hub.docker.com for `docfx`.
 ### Let teams store documentation source files (and only source files) anywhere
 The intent of the Docker image and the `run.cmd` file in this repo (sorry, no Linux version yet but on it's way) is to enable Health Catalyst teams to store *only* their markdown files, images, and a couple simple configuration files in any directory in any Git repo or storage location.
 
-### Let teams build Health Catalyst-branded output without maintain the mechanisms that do it
+### Let teams build Health Catalyst-branded output without maintaining the mechanisms that do it
 Docker containers and the `run.cmd` (when it's executed in the directory of documentation) build the team's documentation into a local preview of the HTML output and generate PDFs, both in Health Catalyst styling. This eliminates the need for a team to store and maintain the entire framework required to build them. Builds also complete more quickly.
 
 ## Prerequisites
