@@ -6,7 +6,6 @@ rmdir /s /q templates
 del package.json
 del readme.md
 git clone -b docker https://github.com/HealthCatalyst/docs-project-template.git
-cd docs-project-template/resources
 robocopy docs-project-template\resources resources /E /IS /MOVE
 robocopy docs-project-template\templates templates /E /IS /MOVE
 move /y docs-project-template\package.json .
