@@ -50,7 +50,7 @@ rmdir /s /q update```
 
 # Every time after
 ## Build a directory of Markdown files and images into a site and PDFs
-Open your command-line tool in your documentation directory. Run `run.cmd`.
+Open your command-line tool in your documentation directory. **Run `run.cmd`.**
 
 If the a image has changed, this may take a couple minutes to update while the latest version is downloaded.
 
