@@ -44,9 +44,11 @@ https://github.com/HealthCatalyst/docs-project-template.
 
 Open a command-line tool in your documentation directory. Run:
 
-```git clone https://github.com/HealthCatalyst/docfx.docker.git update
+```
+git clone https://github.com/HealthCatalyst/docfx.docker.git update
 move update\run.cmd .
-rmdir /s /q update```
+rmdir /s /q update
+```
 
 # Every time after
 ## Build a directory of Markdown files and images into a site and PDFs
