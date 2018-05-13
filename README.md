@@ -44,7 +44,7 @@ https://github.com/HealthCatalyst/docs-project-template.
 
 Open a command-line tool in your documentation directory. Run:
 
-``git clone https://github.com/HealthCatalyst/docfx.docker.git update
+```git clone https://github.com/HealthCatalyst/docfx.docker.git update
 move update\run.cmd .
 rmdir /s /q update```
 
