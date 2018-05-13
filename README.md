@@ -42,6 +42,7 @@ https://github.com/HealthCatalyst/docs-project-template.
 |-------------|-----------|
 | Download and install Docker for Windows. When the option is presented, choose Windows containers. | Either download and install Docker or download install Docker for Windows and select Linux containers when the option is presented. |
 
+## Run these commands
 Open a command-line tool in your documentation directory. Run:
 
 ```
