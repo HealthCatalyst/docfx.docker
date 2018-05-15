@@ -1,5 +1,5 @@
 docker pull hcdocs/docfx:latest
-npm install
+call npm install
 rmdir /s /q _site
 rmdir /s /q docs-project-template
 rmdir /s /q resources
